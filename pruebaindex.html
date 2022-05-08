@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilosPrueba.css">
+</head>
+
+<body>
+
+    <div class="image-container">
+        <img src="https://m.media-amazon.com/images/I/41ISJOuRr+L._AC_.jpg" alt="Logo de Mailchimp">
+    </div>
+
+    <div class="text-container">
+        <h1>Welcome to Mailchimp</h1>
+        <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform.
+            Already have an account? <a href="https://login.mailchimp.com/">Log in</a></p>
+        <form action="/test-form" method="post">
+            <label>
+                <p id="email">Email</p>
+                <input name="email" type="text" class="email">
+            </label>
+            <label>
+                <p id="username">Username</p>
+                <input name="username" type="text" class="username">
+            </label>
+            <label>
+                <p id="password">Password</p>
+                <input name="Password" type="password" class="password"
+                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                    title="Tiene que incluir al menos 1 letra mayúscula, 1 letra minúscula y 1 número." required>
+            </label>
+
+        </form>
+        <div>
+            <ul>
+                <li>One lowecase character</li>
+                <li>One uppercase character</li>
+                <li>One number</li>
+                <li>One special character</li>
+                <li>8 characer minimum</li>
+            </ul>
+            <div class="stuff">
+                <div class="button-container">
+                    <input type="button" value="Sign Up" class="button">
+                </div>
+
+                <div class="checkbox-text">
+                    <input type="checkbox" id="subscribe" value="subscribe">
+                    <label for="subscribe" class="subscribe">I don't want to receive emails about new Mailchimp
+                        products,
+                        best practices,
+                        or special offers.</label>
+                </div>
+
+
+
+
+            </div>
+
+            <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's
+                <a
+                    href="https://mailchimp.com/es/legal/terms/?_ga=2.60695661.1986679314.1651822814-418403530.1651822814&_gac=1.250628724.1651828206.CjwKCAjwjtOTBhAvEiwASG4bCGwX3jmlpi91ZQSTfp-6nUJr0SpnzSZmhXys1TpXW2T-6T-geSiOoxoCDcMQAvD_BwE">
+                    Terms of Use</a> and <a href="https://www.intuit.com/privacy/statement/"> Privacy Policy</a>.
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
